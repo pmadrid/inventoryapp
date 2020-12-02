@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="esp">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>InventoryApp</title>
+    <link href="./Resources/CSS/mystyle.css" rel="stylesheet"  type="text/css">
+    <script src="toggle.js"></script>
+</head>
+<body>
+    <header>
+        <h1 class="logo">Logo</h1> 
+        <input type="checkbox" id="boton" class="boton">
+        <nav>
+            <ul>
+                <li><a href="#">Buscar</a></li>
+                <li><a href="#productos">Lista de productos</a></li>
+                <li><a href="#inicio-sesion">Iniciar sesión</a></li>                    
+            </ul>
+        </nav>
+        <label for="boton" class="boton-label">
+            <span></span>
+        </label>
+    </header>
+    <main class="login-page">
+        <div class="form">
+            <form class="password-form invisible">
+                <p class="informacion"> Hola, para recuperar tu contraseña ingresa tu correo electrónico y pulsa en el
+                    botón RECUPERAR CONTRASEÑA. Solo tienes que seguir las instruciones que te darémos en el correo.</p>
+                <input type="text" placeholder="Correo electrónico" />
+                <button>Recuperar contraseña</button>
+                <p class="message">¿Ya tienes una cuenta? <a href="#" onclick="toggle()">Ingresa ahora </p>
+            </form>
+            <form class="login-form visible" id="inicio-sesion">
+                <input type="text" placeholder="Usuario" />
+                <input type="password" placeholder="Contraseña" />
+                <button>Ingresar</button></button>
+                <p class="error-message">Usuario o contraseña incorrectas</p>
+                <p class="message">¿Olvidaste tu contraseña?<a href="#" onclick="toggle()"> Recuperar</a></p>
+            </form>
+        </div>
+    </main>
+    <footer class="footer">
+        <p>Misión TIC Grupo 2 - Subgrupo B™</br> Todos los derechos reservados</p>
+    </footer>
+    
+</body>
+</html>
