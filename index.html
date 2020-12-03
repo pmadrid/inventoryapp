@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="esp">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>InventoryApp</title>
+    <link href="./Resources/CSS/mystyle.css" rel="stylesheet"  type="text/css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <header>
+        <h1 class="logo">Logo</h1> 
+        <input type="checkbox" id="boton" class="boton">
+        <nav>
+            <ul>
+                <li><a href="#">Buscar</a></li>
+                <li><a href="#productos">Lista de productos</a></li>
+                <li><a href="#inicio-sesion">Iniciar sesión</a></li>                    
+            </ul>
+        </nav>
+        <label for="boton" class="boton-label">
+            <span></span>
+        </label>
+    </header>
+    <main>
+
+        <!--inicio de sesión y recuperación de contraseña-->
+        <section class="login-page">
+            <div class="form">
+                <form class="password-form invisible">
+                    <p class="informacion"> Hola, para recuperar tu contraseña ingresa tu correo electrónico y pulsa en el
+                        botón RECUPERAR CONTRASEÑA. Solo tienes que seguir las instruciones que te darémos en el correo.</p>
+                    <input type="text" placeholder="Correo electrónico" />
+                    <button>Recuperar contraseña</button>
+                    <p class="message">¿Ya tienes una cuenta? <a href="#" onclick="toggle()">Ingresa ahora </p>
+                </form>
+                <form class="login-form visible" id="inicio-sesion">
+                    <input type="text" placeholder="Usuario" />
+                    <input type="password" placeholder="Contraseña" />
+                    <button>Ingresar</button></button>
+                    <p class="error-message">Usuario o contraseña incorrectas</p>
+                    <p class="message">¿Olvidaste tu contraseña?<a href="#" onclick="toggle()"> Recuperar</a></p>
+                </form>
+            </div>
+        </section>
+
+        <!--Lista de productos-->
+        <div class="tituloLista">
+            <div class="envoltorio">
+                <input type="checkbox" class="orden-alfabetico" id="mi-orden">
+                <label for="mi-orden" class="etiqueta-orden">Ordenar de la A a la Z</label>
+            </div>
+            <h1>Lista de productos</h1>
+            <button class="salir"><a href="#inicio-sesion">Salir</a></button>
+        </div>
+        <section class="contenedor-lista">
+
+            <section class="product-list">
+                <!--Tarjetas de productos-->
+                <!--Primer Producto-->
+                <div class="card">
+                    <div class="title">
+                        Croissants
+                    </div>
+                    <div class="image">
+                        <img src="./Images/pattern.png" alt="">
+                    </div>
+                    <div class="text">Descripción del producto</div>
+                    <button class="verMas">Ver más</button>
+                </div>
+                <!--Segundo producto-->
+                <div class="card">
+                    <div class="title">
+                        Croissants
+                    </div>
+                    <div class="image">
+                        <img src="./Images/pattern.png" alt="">
+                    </div>
+                    <div class="text">Descripción del producto</div>
+                    <button class="verMas">Ver más</button>
+                </div>
+                <!--Tercer producto-->
+                <div class="card">
+                    <div class="title">
+                        Croissants
+                    </div>
+                    <div class="image">
+                        <img src="./Images/pattern.png" alt="">
+                    </div>
+                    <div class="text">Descripción del producto</div>
+                    <button class="verMas">Ver más</button>
+                </div>
+                <!--Cuarto producto-->
+                <div class="card">
+                    <div class="title">
+                        Croissants
+                    </div>
+                    <div class="image">
+                        <img src="./Images/pattern.png" alt="">
+                    </div>
+                    <div class="text">Descripción del producto</div>
+                    <button class="verMas">Ver más</button>
+                </div>
+                <!--Quinto producto-->
+                <div class="card">
+                    <div class="title">
+                        Croissants
+                    </div>
+                    <div class="image">
+                        <img src="./Images/pattern.png" alt="">
+                    </div>
+                    <div class="text">Descripción del producto</div>
+                    <button class="verMas">Ver más</button>
+                </div>
+                <!--Sexto producto-->
+                <div class="card">
+                    <div class="title">
+                        Croissants
+                    </div>
+                    <div class="image">
+                        <img src="./Images/pattern.png" alt="">
+                    </div>
+                    <div class="text">Descripción del producto</div>
+                    <button class="verMas">Ver más</button>
+                </div>
+                <!--Séptimo producto-->
+                <div class="card">
+                    <div class="title">
+                        Croissants
+                    </div>
+                    <div class="image">
+                        <img src="./Images/pattern.png" alt="">
+                    </div>
+                    <div class="text">Descripción del producto</div>
+                    <button class="verMas">Ver más</button>
+                </div>
+                <!--Octavo producto-->
+                <div class="card">
+                    <div class="title">
+                        Croissants
+                    </div>
+                    <div class="image">
+                        <img src="./Images/pattern.png" alt="">
+                    </div>
+                    <div class="text">Descripción del producto</div>
+                    <button class="verMas">Ver más</button>
+                </div>
+                <!--Noveno producto-->
+                <div class="card">
+                    <div class="title">
+                        Croissants
+                    </div>
+                    <div class="image">
+                        <img src="./Images/pattern.png" alt="">
+                    </div>
+                    <div class="text">Descripción del producto</div>
+                    <button class="verMas">Ver más</button>
+                </div>
+            </section>
+        </section>
+        
+        
+    </main>
+    <footer class="footer">
+        <p>Misión TIC Grupo 2 - Subgrupo B™</br> Todos los derechos reservados</p>
+    </footer>
+    
+</body>
+</html>
