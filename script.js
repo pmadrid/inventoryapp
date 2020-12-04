@@ -12,4 +12,8 @@ function toggle() {
     }
 }
 
+function loginError() {
+    let x = document.querySelector(".error-message");
+        x.style.display = "block";
+}
 //Mostrar hora
