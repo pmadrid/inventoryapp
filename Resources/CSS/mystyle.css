@@ -87,9 +87,7 @@ body::before{
   color: var(--color-principal);
   text-decoration: none;
 }
-.form .error-message {
-    visibility: hidden;
-}
+
 .informacion{
     font-size: .8rem;
     padding: 0 0 30px;
