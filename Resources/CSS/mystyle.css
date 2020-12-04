@@ -399,18 +399,14 @@ color: red;
 transform: scale(2);
 }
 
-
 /*Vistas J*/
 
 .logedj{
-    background: #20939A;
+    background: #1F9399;
     padding: 2px;
     margin-left: 100px;
     margin-right: 100px;
     margin-bottom: -1px;
-    
-   
-
 }
 
 .titlePagej{
@@ -450,7 +446,7 @@ header h1::before{
 
 
 .gest-usuariosj{
-    background-color:  #E3B678; 
+    background-color:  #f8d993; 
     padding: 5xp ;
     margin-left: 100px;
     margin-right: 100px;
@@ -484,7 +480,7 @@ header h1::before{
 }
 
 .bottonj button{
-    background:#20939A;
+    background:#1F9399;
     padding: 15px;
     text-transform: uppercase;
     color: #FFFFFF;
