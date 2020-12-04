@@ -399,12 +399,17 @@ transform: scale(2);
 
 /*Vistas J*/
 
+
 .logedj{
     background: #1F9399;
     padding: 2px;
     margin-left: 100px;
     margin-right: 100px;
     margin-bottom: -1px;
+}
+.logedj1{
+    background: #1F9399;
+    padding: 2px;
 }
 
 .titlePagej{
